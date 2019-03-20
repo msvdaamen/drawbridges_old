@@ -1,0 +1,16 @@
+itemGroup.Drawbridges=Drawbridges
+tile.drawbridges.ore_tin.name=Оловянная руда
+tile.drawbridges.ore_copper.name=Медная руда
+tile.drawbridges.drawbridge.name=Разводной мост
+tile.drawbridges.drawbridge_advanced.name=Продвинутый разводной мост
+tile.drawbridges.drawbridge_extended.name=Расширенный разводной мост
+item.drawbridges.ingotCopper.name=Медный слиток
+item.drawbridges.ingotTin.name=Оловянный слиток
+item.drawbridges.ingotBronze.name=Бронзовый слиток
+item.drawbridges.plateCopper.name=Медная пластина
+item.drawbridges.plateTin.name=Оловянная пластина
+item.drawbridges.plateBronze.name=Бронзовая пластина
+item.drawbridges.plateIron.name=Железная пластина
+item.drawbridges.plateGold.name=Золотая пластина
+item.drawbridges.hammer.name=Молот
+item.drawbridges.bronze_alloy.name=Бронзовый сплав

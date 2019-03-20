@@ -1,0 +1,21 @@
+{
+ "conditions": [
+     {
+         "type": "drawbridges:disableOres"
+     }
+   ],
+ "result": {
+   "item": "drawbridges:plate",
+   "data": 3
+ },
+ "type": "drawbridges:use_damage",
+ "ingredients": [
+   {
+     "item": "minecraft:iron_ingot"
+   },
+   {
+     "item": "drawbridges:hammer",
+     "data": 32767
+   }
+ ]
+}

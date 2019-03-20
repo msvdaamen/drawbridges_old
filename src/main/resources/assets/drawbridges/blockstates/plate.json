@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "drawbridges:item/basicitem"
+  },
+  "variants": {
+    "plate_type": {
+      "copper":     {"textures": {"layer0": "drawbridges:items/platecopper"} },
+      "tin":     {"textures": {"layer0": "drawbridges:items/platetin"} },
+      "bronze":    {"textures": {"layer0": "drawbridges:items/platebronze"} },
+      "iron":    {"textures": {"layer0": "drawbridges:items/plateiron"} },
+      "gold":    {"textures": {"layer0": "drawbridges:items/plategold"} }
+    }
+  }
+}

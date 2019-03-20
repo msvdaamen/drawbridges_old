@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "drawbridges:disableOres"
+    }
+  ],
+  "result": {
+    "item": "drawbridges:plate",
+    "data": 0
+  },
+  "type": "drawbridges:use_damage",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    },
+    {
+      "item": "drawbridges:hammer",
+      "data": 32767
+    }
+  ]
+}

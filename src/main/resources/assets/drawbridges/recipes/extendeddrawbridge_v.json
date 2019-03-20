@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "drawbridges:vannilaRecipe"
+    }
+  ],
+  "result": {
+    "item": "drawbridges:drawbridge_extended"
+  },
+  "pattern": [
+    "gsg",
+    "rdr",
+    "gsg"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "r": {
+      "item": "minecraft:repeater"
+    },
+    "s": {
+      "item": "minecraft:redstone"
+    },
+    "d": {
+      "item": "drawbridges:drawbridge"
+    }
+  }
+}

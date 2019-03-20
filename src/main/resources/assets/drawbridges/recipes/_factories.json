@@ -1,0 +1,9 @@
+{
+  "recipes": {
+    "use_damage": "com.msvdaamen.recipe.useItemdamageRecipeFactory"
+  },
+  "conditions": {
+    "vannilaRecipe": "com.msvdaamen.recipe.disableRecipes",
+    "disableOres": "com.msvdaamen.recipe.disableOwnOres"
+  }
+}

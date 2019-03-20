@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "drawbridges:disableOres"
+    }
+  ],
+  "result": {
+    "item": "drawbridges:hammer"
+  },
+  "pattern": [
+    " c ",
+    "isi",
+    " s "
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "c": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  }
+}

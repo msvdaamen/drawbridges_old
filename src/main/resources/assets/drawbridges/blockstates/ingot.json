@@ -1,0 +1,13 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "drawbridges:item/basicitem"
+  },
+  "variants": {
+    "ingot_type": {
+      "copper":     {"textures": {"layer0": "drawbridges:items/ingotCopper"} },
+      "tin":     {"textures": {"layer0": "drawbridges:items/ingotTin"} },
+      "bronze":    {"textures": {"layer0": "drawbridges:items/ingotBronze"} }
+    }
+  }
+}

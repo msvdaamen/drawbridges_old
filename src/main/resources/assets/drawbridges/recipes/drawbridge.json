@@ -1,0 +1,35 @@
+{
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "drawbridges:vannilaRecipe"
+      }
+    }
+  ],
+  "result": {
+    "item": "drawbridges:drawbridge"
+  },
+  "pattern": [
+    "bcb",
+    "cdc",
+    "brb"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "b": {
+      "type": "forge:ore_dict",
+      "ore": "ingotBronze"
+    },
+    "c": {
+      "type": "forge:ore_dict",
+      "ore": "plateCopper"
+    },
+    "d": {
+      "item": "minecraft:dispenser"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  }
+}

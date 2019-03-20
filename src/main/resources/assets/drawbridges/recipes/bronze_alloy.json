@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+        "type": "drawbridges:disableOres"
+    }
+  ],
+  "result": {
+    "item": "drawbridges:bronze_alloy"
+  },
+  "type": "drawbridges:use_damage",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "plateTin"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "plateCopper"
+    },
+    {
+      "item": "drawbridges:hammer",
+      "data": 32767
+    }
+  ]
+}

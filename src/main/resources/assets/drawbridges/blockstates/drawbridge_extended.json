@@ -1,0 +1,22 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "drawbridges:drawbridge_extended"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "facing": {
+      "north": {"y": 0},
+      "south": {"y": 180},
+      "west": {"y": 270},
+      "east": {"y": 90},
+      "up": {"y" : 0, "x": -90},
+      "down": {"y": 0, "x": 90}
+    },
+    "pulse_mode": {
+      "true": {},
+      "false": {}
+    }
+  }
+}

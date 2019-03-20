@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "drawbridges:vannilaRecipe"
+    }
+  ],
+  "result": {
+    "item": "drawbridges:drawbridge"
+  },
+  "pattern": [
+    "ici",
+    "idi",
+    "iri"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:chest"
+    },
+    "d": {
+      "item": "minecraft:dispenser"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  }
+}
