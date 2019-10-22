@@ -4,9 +4,11 @@ import com.msvdaamen.drawbridges.blocks.Drawbridge;
 import com.msvdaamen.drawbridges.blocks.DrawbridgeAdvanced;
 import com.msvdaamen.drawbridges.blocks.DrawbridgeExtended;
 import com.msvdaamen.drawbridges.init.ModBlocks;
+import com.msvdaamen.drawbridges.tileentities.DrawbridgeTileEntity;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.tileentity.TileEntityType;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -29,9 +31,10 @@ public class RegistryEvents {
         event.getRegistry().register(new BlockItem(ModBlocks.DRAWBRIDGE_ADVANCED, properties).setRegistryName("drawbridge_advanced"));
     }
 
-//    @SubscribeEvent
-//    public static void onTileEntityRegistry(final RegistryEvent.Register<TileEntityType<?>> event) {
-//
-//    }
+    @SubscribeEvent
+    public static void onTileEntityRegistry(final RegistryEvent.Register<TileEntityType<?>> event) {
+        event.getRegistry().register(TileEntityType.Builder.create(DrawbridgeTileEntity::new, ModBlocks.DRAWBRIDGE).build(null).setRegistryName("drawbridge"));
+
+    }
 
 }
