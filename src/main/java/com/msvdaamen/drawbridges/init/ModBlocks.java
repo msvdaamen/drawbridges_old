@@ -2,6 +2,8 @@ package com.msvdaamen.drawbridges.init;
 
 import com.msvdaamen.drawbridges.Drawbridges;
 import com.msvdaamen.drawbridges.blocks.Drawbridge;
+import com.msvdaamen.drawbridges.blocks.DrawbridgeAdvanced;
+import com.msvdaamen.drawbridges.blocks.DrawbridgeExtended;
 import net.minecraftforge.registries.ObjectHolder;
 
 public class ModBlocks {
@@ -10,8 +12,8 @@ public class ModBlocks {
     public static Drawbridge DRAWBRIDGE;
 
     @ObjectHolder(Drawbridges.MODID + ":drawbridge_extended")
-    public static Drawbridge DRAWBRIDGE_EXTENDED;
+    public static DrawbridgeExtended DRAWBRIDGE_EXTENDED;
 
     @ObjectHolder(Drawbridges.MODID + ":drawbridge_advanced")
-    public static Drawbridge DRAWBRIDGE_ADVANCED;
+    public static DrawbridgeAdvanced DRAWBRIDGE_ADVANCED;
 }

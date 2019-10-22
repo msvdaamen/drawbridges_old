@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "drawbridges:drawbridge"
+          "name": "drawbridges:drawbridge_extended"
         }
       ]
     }
